@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizza Menu</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <form id="crustType">
+            <div class="form-group">
+              <label for="crustType">Crust</label>
+              <select class="form-control" id="pizza">
+                <option default>--Select Crust-</option>
+                <option value="thin">Thin Crust</option>
+                <option value="hand-Tossed">Hand Tossed</option>
+                <option value="regular">Regular</option>
+
+              </select>
+            </div>
+            <br
+
+            <div class="form-group">
+             <label for="typeCheese">Select Cheese</label>
+             <select class="form-control" id="typeCheese">
+               <option default>--Select Cheese--</option>
+               <option value="feta">Feta</option>
+               <option value="mozzarella">Mozzarella</option>
+               <option value="ricotta">Ricotta</option>
+               <option value="goat">Goat</option>
+
+
+             </select>
+           </div>
+          <br
+
+
+             <div class="form-group">
+               <label for="toppings">Meat Toppings: Add $3 each</label>
+               <div class="radio">
+               <label>
+               <input name="beef" type="radio" value="topping"> Beef
+               <input name="salami" type="radio" value="topping"> Salami
+               <input name="chicken" type="radio" value="topping"> Chicken
+               <input name="pepperoni" type="radio" value="topping"> Pepperoni
+               <input name="canadian bacon" type="radio" value="topping">Canadian Bacon
+               </label>
+
+            <div class="form-group">
+              <label for="otherToppings">All other toppings: Add $1 each</label>
+              <input name="black olives" type="radio" value="topping">Black Olives
+              <input name="tomatoes" type="radio" value="topping">Tomatoes
+              <input name="onion" type="radio" value="topping">o-animation
+              <input name="pineapple"
+
+
+
+
+              </select>
+            </div>
+
+
+                </label>
+
+            </div>
+
+            <br
+
+            </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <h2>Your Final Price:</h2>
+          <div id="cost">
+            <p>Your final cost is: <span class="cost"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
